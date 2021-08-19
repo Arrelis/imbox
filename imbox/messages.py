@@ -22,6 +22,7 @@ class Messages:
         'subject': '(SUBJECT "{}")',
         'uid__range': '(UID {})',
         'text': '(TEXT "{}")',
+        'message_id': '(HEADER "MESSAGE-ID" "{}")'
     }
 
     FOLDER_LOOKUP = {}
