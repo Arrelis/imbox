@@ -131,6 +131,7 @@ def parse_attachment(message_part):
                         attachment['create-date'] = value
 
             attachment['filename'] = "".join(filename_parts)
+            attachment['name_param'] = filename
             return attachment
 
     return None
